@@ -1,5 +1,6 @@
 /* BASE styles */
 
+
 html {
   box-sizing: border-box;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,6 +21,7 @@ body {
     We need to add some padding to the bottom of the body on mobile so that
      the footer won't get covered by our navigation
   */
+
   padding-bottom: 60px;
 }
 
@@ -195,3 +197,89 @@ figure {
 .about > p {
   margin: 0;
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-bottom: 0;
+  }
+
+  main {
+    margin-left: 4em;
+    width: 100%;
+  }
+
+  .movie-overview {
+    display: block;
+  }
+
+  .site-logo{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 600;
+    right: 2em;
+  }
+
+  img.site-logo-image {
+    right: 0.2em;
+    position: absolute;
+  }
+
+  header.site-header {
+    float: left;
+    width: 4em;
+    height: 100%;
+    display: block;
+    position: fixed;
+    z-index: 500;
+  }
+
+  ul.site-nav-list {
+    position: relative;
+    top: 5.1em;
+  }
+
+  .site-nav {
+    /*background: #fff*/
+    position: relative;
+    /*left: 0;
+    right: 0;*/
+    /*width: 4em;*/
+    height: 100%;
+    z-index: 501;
+  }
+
+  .site-nav-item {
+    width: 100%;
+    padding: 0;
+  }
+
+  footer {
+    float: left;
+    margin-left: 4em;
+  }
+
+  footer.site-footer {
+      display: inline-flex;
+  }
+
+  footer.site-footer {
+      width: 100%;
+  }
+
+  nav.footer-nav {
+      width: 50%;
+  }
+
+  section.about {
+      width: 50%;
+  }
+}
+
+
+
+
+/*@media screen and (min-width: 992px) {
+  992px*/
