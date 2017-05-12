@@ -206,7 +206,7 @@ figure {
   }
 
   main {
-    margin-left: 4em;
+    padding-left: 4em;
     width: 100%;
   }
 
@@ -258,7 +258,6 @@ figure {
 
   footer {
     float: left;
-    margin-left: 4em;
   }
 
   footer.site-footer {
@@ -267,6 +266,7 @@ figure {
 
   footer.site-footer {
       width: 100%;
+      padding-left: 4em;
   }
 
   nav.footer-nav {
@@ -282,4 +282,17 @@ figure {
 
 
 /*@media screen and (min-width: 992px) {
-  992px*/
+  .movie-overview {
+    display: block;
+  }
+
+
+
+
+  main {
+      padding-left: 4em;
+  }
+
+  footer.site-footer {
+      padding-left: 4em;
+  }*/
