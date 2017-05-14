@@ -280,7 +280,7 @@ figure {
   }
 
   .movie:nth-child(3n-1) {
-    float: clear;
+    clear: left;
   }
 
   .movie-overview {
