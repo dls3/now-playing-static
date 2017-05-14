@@ -274,9 +274,13 @@ figure {
 }
 
 @media screen and (min-width: 992px) {
-  article.movie {
+  .movie {
       float: left;
       width: 33.3333%;
+  }
+
+  .movie:nth-child(3n-1) {
+    float: clear;
   }
 
   .movie-overview {
