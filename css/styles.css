@@ -221,12 +221,12 @@ figure {
     z-index: 600;
   }
 
-  img.site-logo-image {
+  .site-logo-image {
     right: 0.25em;
     position: absolute;
   }
 
-  header.site-header {
+  .site-header {
     float: left;
     width: 4em;
     height: 100%;
@@ -235,7 +235,7 @@ figure {
     z-index: 500;
   }
 
-  ul.site-nav-list {
+  .site-nav-list {
     position: relative;
     top: 5.1em;
   }
@@ -255,20 +255,20 @@ figure {
     float: left;
   }
 
-  footer.site-footer {
+  .site-footer {
       display: inline-flex;
   }
 
-  footer.site-footer {
+  .site-footer {
       width: 100%;
       padding-left: 4em;
   }
 
-  nav.footer-nav {
+  .footer-nav {
       width: 50%;
   }
 
-  section.about {
+  .about {
       width: 50%;
   }
 }
@@ -300,19 +300,19 @@ figure {
     display: block;
   }
 
-  article.movie:first-child {
+  .movie:first-child {
       width: 100%;
   }
 
-  article.movie:first-child .movie-poster {
+  .movie:first-child .movie-poster {
     display: none;
   }
 
-  article.movie:first-child .movie-overview {
+  .movie:first-child .movie-overview {
     display: block;
   }
 
-  article.movie:first-child .movie-backdrop {
+  .movie:first-child .movie-backdrop {
     display: block
   }
 
@@ -323,12 +323,12 @@ figure {
     z-index: 600;
   }
 
-  img.site-logo-image {
+  .site-logo-image {
     right: 0.25em;
     position: absolute;
   }
 
-  header.site-header {
+  .site-header {
     float: left;
     width: 4em;
     height: 100%;
@@ -337,7 +337,7 @@ figure {
     z-index: 500;
   }
 
-  ul.site-nav-list {
+  .site-nav-list {
     position: relative;
     top: 5.1em;
   }
@@ -357,20 +357,20 @@ figure {
     float: left;
   }
 
-  footer.site-footer {
+  .site-footer {
       display: inline-flex;
   }
 
-  footer.site-footer {
+  .site-footer {
       width: 100%;
       padding-left: 4em;
   }
 
-  nav.footer-nav {
+  .footer-nav {
       width: 50%;
   }
 
-  section.about {
+  .about {
       width: 50%;
   }
-  }
+}
